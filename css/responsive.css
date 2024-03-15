@@ -1,0 +1,228 @@
+@media screen and (max-width: 1280px) {
+  body {
+    height: auto;
+    font-size: 12px;
+  }
+  header {
+    height: 82px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    display: none;
+  }
+  .logo {
+    margin: 0;
+    margin-right: auto;
+  }
+  .logo a {
+    display: block;
+  }
+  .logo a img {
+    width: 150px;
+  }
+  .menu {
+    display: block;
+    height: 80px;
+    width: 60px;
+    background: url(../images/menu_btn.png) no-repeat 0 50%;
+    text-indent: -999em;
+  }
+  header:hover .menu,
+  header.bg .menu {
+    background-image: url(../images/menu_btn2.png);
+  }
+  .awards .awards_content,
+  .awards .text_list,
+  .expert_technique_inner,
+  .service_content,
+  .icon,
+  .footer,
+  footer .site_map,
+  .consumers_inner,
+  .news_inner {
+    width: 90%;
+  }
+  header .reserve {
+    width: 160px;
+    height: 80px;
+  }
+  header > button {
+    clear: both;
+  }
+  .main_text {
+    top: 40%;
+  }
+  .main_text span {
+    font-size: 1.2rem;
+  }
+  .main_text strong {
+    font-size: 2rem;
+    white-space: nowrap;
+    margin-top: 1rem;
+  }
+  .main_text a {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .icon ul {
+    flex-wrap: wrap;
+  }
+  .icon ul li {
+    width: 33.33%;
+    flex: auto;
+  }
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .subTitle {
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  .service {
+    padding-top: 3rem;
+  }
+  .service .title {
+    top: 0px;
+  }
+  .service .subTitle {
+    top: 0;
+  }
+  .service_content {
+    top: 0;
+  }
+  .service_content ul {
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+  }
+  .service_content ul li {
+    width: 100%;
+  }
+  .service_content ul li a {
+    display: inline-block;
+    text-align: left;
+  }
+  .expert_technique .expert {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .expert_technique .expert li {
+    width: 100%;
+  }
+  .homeCheck {
+    flex-wrap: wrap;
+  }
+  .homeCheck .text {
+    width: 80%;
+    margin: auto;
+  }
+  .homeCheck .text .homeCheck_title {
+    font-size: 1.2rem;
+  }
+  .homeCheck .text p {
+    color: #b6e7da;
+    line-height: 1.5;
+    font-size: 0.8rem;
+  }
+  .homeCheck .img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .awards .awards_content ul li {
+    flex-direction: column;
+    text-align: center;
+  }
+  .awards .awards_content ul li .awards_icon img {
+    width: 70%;
+  }
+  .awards .awards_content ul li .text {
+    margin: auto;
+  }
+  .awards .awards_content ul li .text strong {
+    font-size: 1rem;
+  }
+  .awards .awards_content ul li .text span {
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .awards .text_list ul {
+    display: block;
+  }
+  .awards .text_list ul li p {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .news .title_wrap {
+    float: none;
+    width: 100%;
+    top: -40px;
+  }
+  .news .news_content {
+    display: block;
+  }
+  .news .news_content .left,
+  .news .news_content .right {
+    width: 100%;
+  }
+  .news .news_content .left li:nth-child(1),
+  .news .news_content .left li:nth-child(2) {
+    width: 100%;
+    height: 250px;
+  }
+  .news .news_content .right {
+    position: static;
+    margin-top: 2rem;
+  }
+  .consumers_inner .thumnail ul {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .consumers_inner .thumnail ul li {
+    width: 48%;
+  }
+  .consumers_inner .board > div {
+    width: 90%;
+  }
+  .consumers_inner .board > div:nth-child(1) {
+    margin-bottom: 3rem;
+  }
+  footer .site_map > ul {
+    border: none;
+  }
+  footer .site_map > ul > li {
+    width: 50%;
+  }
+  footer .site_map > ul > li ~ li {
+    border-left: none;
+  }
+  footer .site_map > ul > li:nth-child(2) ~ li {
+    border-top: 1px solid red;
+    padding-top: 40px;
+  }
+  footer .site_map > ul > li:nth-child(2n + 1) {
+    border-right: 1px solid blue;
+  }
+  .footer {
+    width: 80%;
+    margin: auto;
+  }
+  .footer .footer_logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .footer address {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+}
